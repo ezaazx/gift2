@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday Countdown</title>
+   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <link href="style.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+  <div class="container">
+    <div id="topimageContainer" class="hidden">
+    <img src="1-Photoroom.png" class="hover-img top-img">
+<img src="2-Photoroom.png" class="hover-img top-img">
+<img src="3-Photoroom.png" class="hover-img top-img">
+    </div>
+    <h1 id="countdown"></h1>
+    <h1 id="message" class="hidden"> Happy 22nd Birthday, My Love! 
+        So its your birthday today, and I just want to say how much much much you mean to me.
+        You are the comfort pillow of my life, and I am so grateful for each and every moment 
+        we shared together so far. I hope this year brings you as much joy as you bring
+         to my life. I love you more than anything! </h1>
+    </h1>
+    <div id="bottomimageContainer" class="hidden">
+    
+<img src="4-Photoroom.png" class="hover-img bottom-img">
+
+    </div>
+    <div class="balloon"></div>
+    <div class="balloon heart"></div>
+    <div class="balloon" style="left: 70%; animation-delay: 2s;"></div>
+    <div class="balloon heart" style="left: 30%; animation-delay: 4s;"></div>
+    <canvas id="confetti-canvas"></canvas>
+    <canvas id="cursor-canvas"></canvas>
+
+  </div>
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>
