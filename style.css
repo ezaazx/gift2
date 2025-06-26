@@ -115,7 +115,7 @@ canvas {
 }
 .hover-img {
   position: absolute;
-  width: 450px;  /* adjust size as you like */
+  width: 250px;  /* adjust size as you like */
   height: auto;
   animation: hoverAnim 3s ease-in-out infinite alternate;
 }
